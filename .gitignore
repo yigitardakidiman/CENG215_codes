@@ -1,0 +1,34 @@
+# Build and binary directories
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm64/
+
+# Visual Studio temporary files, user settings and caches
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+*.ide/
+
+# Visual Studio Code & Rider
+.vscode/
+.idea/
+
+# Dotnet build artifacts and caches
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
