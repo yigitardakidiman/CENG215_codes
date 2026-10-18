@@ -61,9 +61,10 @@ Bu proje, **CENG 215** dersi kapsamında geliştirilmiş, öğrencilerin dönem 
 2. Üst menüden **Start / Başlat** (F5) butonuna basarak projeyi derleyip çalıştırın.
 
 ### Yöntem 2: .NET CLI ile Çalıştırma
-Terminal veya PowerShell üzerinden proje dizinine geçerek aşağıdaki komutu çalıştırabilirsiniz:
+Terminal veya PowerShell üzerinden depo ana dizinindeyken aşağıdaki komutu çalıştırabilirsiniz:
 
 ```bash
-cd GradeCalculator/GradeCalculator
+cd Homework/hw1/GradeCalculator
 dotnet run
 ```
+
