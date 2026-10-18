@@ -1,0 +1,143 @@
+{
+  "C# Console Application Boilerplate (Klasik)": {
+    "scope": "csharp",
+    "prefix": ["cmain", "capp", "boiler", "cstemplate"],
+    "body": [
+      "using System;",
+      "",
+      "namespace ${1:CENG215}",
+      "{",
+      "    internal class Program",
+      "    {",
+      "        static void Main(string[] args)",
+      "        {",
+      "            $0",
+      "        }",
+      "    }",
+      "}"
+    ],
+    "description": "Klasik C# konsol uygulaması şablonu (Main metodu ile)"
+  },
+  "C# Top-Level Statements Boilerplate (Modern)": {
+    "scope": "csharp",
+    "prefix": ["ctop", "csimple"],
+    "body": [
+      "using System;",
+      "",
+      "// $1",
+      "$0"
+    ],
+    "description": "Modern C# Top-Level Statements başlangıç şablonu"
+  },
+  "Console.WriteLine": {
+    "scope": "csharp",
+    "prefix": "cw",
+    "body": [
+      "Console.WriteLine($0);"
+    ],
+    "description": "Console.WriteLine($0);"
+  },
+  "Console.WriteLine (Interpolated)": {
+    "scope": "csharp",
+    "prefix": "cws",
+    "body": [
+      "Console.WriteLine($\"$0\");"
+    ],
+    "description": "Console.WriteLine($\"...\");"
+  },
+  "Console.Write": {
+    "scope": "csharp",
+    "prefix": "cwrite",
+    "body": [
+      "Console.Write($0);"
+    ],
+    "description": "Console.Write($0);"
+  },
+  "Console.ReadLine": {
+    "scope": "csharp",
+    "prefix": "cr",
+    "body": [
+      "Console.ReadLine()"
+    ],
+    "description": "Console.ReadLine()"
+  },
+  "Konsoldan Metin (String) Oku": {
+    "scope": "csharp",
+    "prefix": "crstr",
+    "body": [
+      "Console.Write(\"${1:Bir değer giriniz}: \");",
+      "string ${2:input} = Console.ReadLine() ?? \"\";",
+      "$0"
+    ],
+    "description": "Kullanıcıdan string girdi alma"
+  },
+  "Konsoldan Tamsayı (Int) Oku": {
+    "scope": "csharp",
+    "prefix": "crint",
+    "body": [
+      "Console.Write(\"${1:Bir sayı giriniz}: \");",
+      "int ${2:sayi} = Convert.ToInt32(Console.ReadLine());",
+      "$0"
+    ],
+    "description": "Kullanıcıdan integer girdi alma"
+  },
+  "Konsoldan Ondalıklı (Double) Oku": {
+    "scope": "csharp",
+    "prefix": "crdbl",
+    "body": [
+      "Console.Write(\"${1:Bir ondalıklı sayı giriniz}: \");",
+      "double ${2:sayi} = Convert.ToDouble(Console.ReadLine());",
+      "$0"
+    ],
+    "description": "Kullanıcıdan double girdi alma"
+  },
+  "For Döngüsü": {
+    "scope": "csharp",
+    "prefix": "forloop",
+    "body": [
+      "for (int ${1:i} = 0; ${1:i} < ${2:length}; ${1:i}++)",
+      "{",
+      "    $0",
+      "}"
+    ],
+    "description": "Standart for döngüsü"
+  },
+  "Foreach Döngüsü": {
+    "scope": "csharp",
+    "prefix": "feach",
+    "body": [
+      "foreach (var ${1:item} in ${2:collection})",
+      "{",
+      "    $0",
+      "}"
+    ],
+    "description": "Foreach döngüsü"
+  },
+  "Try-Catch Bloğu": {
+    "scope": "csharp",
+    "prefix": "tryc",
+    "body": [
+      "try",
+      "{",
+      "    $1",
+      "}",
+      "catch (Exception ex)",
+      "{",
+      "    Console.WriteLine($\"Hata: {ex.Message}\");$0",
+      "}"
+    ],
+    "description": "Try-Catch hata yakalama bloğu"
+  },
+  "Static Metot Şablonu": {
+    "scope": "csharp",
+    "prefix": "smethod",
+    "body": [
+      "static ${1:void} ${2:MetotAdi}(${3:})",
+      "{",
+      "    $0",
+      "}"
+    ],
+    "description": "Statik yardımcı metot tanımlama"
+  }
+}
+

@@ -17,7 +17,8 @@ x86/
 *.ide/
 
 # Visual Studio Code & Rider
-.vscode/
+.vscode/*
+!.vscode/*.code-snippets
 .idea/
 
 # Dotnet build artifacts and caches
