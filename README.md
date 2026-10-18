@@ -6,9 +6,16 @@ Bu depo, **CENG 215** dersi kapsamında hazırlanan laboratuvar çalışmaları,
 
 ## 📁 Projeler ve İçerik
 
-| Proje | Açıklama | Teknoloji / Dil | Durum |
+### 📝 Homework (Ödevler)
+| Klasör / Proje | Açıklama | Teknoloji / Dil | Durum |
 | :--- | :--- | :---: | :---: |
-| [GradeCalculator](./GradeCalculator/) | Ders notları ve ağırlık yüzdelerine göre ağırlıklı ortalama ve harf notu hesaplayan Windows Forms uygulaması. | C# / .NET 10.0 (WinForms) | Tamamlandı ✅ |
+| [hw1 (GradeCalculator)](./Homework/hw1/) | Ders notları ve ağırlık yüzdelerine göre ağırlıklı ortalama ve harf notu hesaplayan Windows Forms uygulaması. | C# / .NET 10.0 (WinForms) | Tamamlandı ✅ |
+| [hw2 (Basic C# Programs)](./Homework/hw2/) | Temel C# konsol uygulamaları: Yaş hesaplayıcı (`age_calculator.cs`), sayı işlemleri (`number_operations.cs`) ve dikdörtgen hesaplayıcı (`rectangle_calculator.cs`). | C# / .NET | Geliştirme Aşamasında ⏳ |
+
+### 🔬 Lab (Laboratuvar Çalışmaları)
+| Klasör / Proje | Açıklama | Teknoloji / Dil | Durum |
+| :--- | :--- | :---: | :---: |
+| *Henüz eklenmedi* | - | - | Planlandı ⏳ |
 
 ---
 
@@ -17,10 +24,19 @@ Bu depo, **CENG 215** dersi kapsamında hazırlanan laboratuvar çalışmaları,
 ```text
 CENG_215_Codes/
 │
-├── GradeCalculator/                 # Ders Notu Hesaplama Projesi
-│   ├── GradeCalculator/             # WinForms Kaynak Kodları (Form1.cs, Program.cs, vb.)
-│   ├── GradeCalculator.slnx         # Solution Dosyası
-│   └── README.md                    # Projeye özel dokümantasyon
+├── Homework/                        # Ödev projeleri
+│   ├── hw1/                         # Ödev 1: GradeCalculator (WinForms)
+│   │   ├── GradeCalculator/         # WinForms Kaynak Kodları (Form1.cs, Program.cs, vb.)
+│   │   ├── GradeCalculator.slnx     # Solution Dosyası
+│   │   └── README.md                # Projeye özel dokümantasyon
+│   └── hw2/                         # Ödev 2: Temel C# Konsol Uygulamaları
+│       ├── age_calculator.cs        # Yaş hesaplama
+│       ├── number_operations.cs     # Sayısal işlemler
+│       ├── rectangle_calculator.cs  # Dikdörtgen alan ve çevre hesabı
+│       └── README.md                # Ödev 2 dokümantasyonu
+│
+├── Lab/                             # Laboratuvar çalışmaları
+│   └── .gitkeep
 │
 ├── .gitignore                       # Derleme ve geçici dosyaları hariç tutma
 └── README.md                        # Ana repo tanıtım ve içerik belgesi
@@ -35,7 +51,7 @@ Her projenin kendi dizininde ayrıntılı çalışma ve derleme adımlarını i�
 Örneğin, `GradeCalculator` projesini çalıştırmak için:
 ```bash
 git clone https://github.com/yigitardakidiman/CENG215_codes.git
-cd CENG215_codes/GradeCalculator/GradeCalculator
+cd CENG215_codes/Homework/hw1/GradeCalculator
 dotnet run
 ```
 
