@@ -10,7 +10,7 @@ Bu depo, **CENG 215** dersi kapsamında hazırlanan laboratuvar çalışmaları,
 | Klasör / Proje | Açıklama | Teknoloji / Dil | Durum |
 | :--- | :--- | :---: | :---: |
 | [hw1 (GradeCalculator)](./Homework/hw1/) | Ders notları ve ağırlık yüzdelerine göre ağırlıklı ortalama ve harf notu hesaplayan Windows Forms uygulaması. | C# / .NET 10.0 (WinForms) | Tamamlandı ✅ |
-| [hw2 (Basic C# Programs)](./Homework/hw2/) | Temel C# konsol uygulamaları: Yaş hesaplayıcı (`age_calculator.cs`), sayı işlemleri (`number_operations.cs`) ve dikdörtgen hesaplayıcı (`rectangle_calculator.cs`). | C# / .NET | Geliştirme Aşamasında ⏳ |
+| [hw2 (Basic C# Programs)](./Homework/hw2/) | Temel C# konsol uygulamaları: Yaş hesaplayıcı (`age_calculator.cs`), sayı işlemleri (`number_operations.cs`) ve dikdörtgen hesaplayıcı (`rectangle_calculator.cs`). | C# / .NET | Tamamlandı ✅ |
 
 ### 🔬 Lab (Laboratuvar Çalışmaları)
 | Klasör / Proje | Açıklama | Teknoloji / Dil | Durum |
