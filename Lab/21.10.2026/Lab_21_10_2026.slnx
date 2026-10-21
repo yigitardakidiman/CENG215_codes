@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Q1_CircleArea/Q1_CircleArea.csproj" />
+  <Project Path="Q2_GradeCalculator/Q2_GradeCalculator.csproj" />
+  <Project Path="Q3_TemperatureConverter/Q3_TemperatureConverter.csproj" />
+  <Project Path="Q4_TimeConverter/Q4_TimeConverter.csproj" />
+  <Project Path="Q5_SwapValues/Q5_SwapValues.csproj" />
+</Solution>

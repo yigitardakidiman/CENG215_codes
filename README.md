@@ -15,7 +15,7 @@ Bu depo, **CENG 215** dersi kapsamında hazırlanan laboratuvar çalışmaları,
 ### 🔬 Lab (Laboratuvar Çalışmaları)
 | Klasör / Proje | Açıklama | Teknoloji / Dil | Durum |
 | :--- | :--- | :---: | :---: |
-| *Henüz eklenmedi* | - | - | Planlandı ⏳ |
+| [21.10.2026 (Lab Week 1)](./Lab/21.10.2026/) | 5 konsol uygulaması: Daire alanı (Q1), not ortalaması (Q2), sıcaklık dönüştürücü (Q3), zaman dönüştürücü (Q4), değer takası (Q5). | C# / .NET 10.0 (Console) | Tamamlandı ✅ |
 
 ---
 
@@ -36,7 +36,15 @@ CENG_215_Codes/
 │       └── README.md                # Ödev 2 dokümantasyonu
 │
 ├── Lab/                             # Laboratuvar çalışmaları
-│   └── .gitkeep
+│   ├── .gitkeep
+│   └── 21.10.2026/                  # Lab Week 1: 5 konsol projesi (Q1-Q5)
+│       ├── Q1_CircleArea/           # Daire alanı ve çevresi
+│       ├── Q2_GradeCalculator/      # Vize/final ortalaması ve geçti/kaldı
+│       ├── Q3_TemperatureConverter/ # Celsius -> Fahrenheit
+│       ├── Q4_TimeConverter/        # Saniye -> saat/dakika/saniye
+│       ├── Q5_SwapValues/           # Üçüncü değişkenle takas
+│       ├── Lab_21_10_2026.slnx      # Solution Dosyası
+│       └── README.md                # Lab dokümantasyonu
 │
 ├── .gitignore                       # Derleme ve geçici dosyaları hariç tutma
 └── README.md                        # Ana repo tanıtım ve içerik belgesi
