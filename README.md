@@ -1,62 +1,62 @@
 # CENG 215 Course Codes & Assignments 🎓💻
 
-Bu depo, **CENG 215** dersi kapsamında hazırlanan laboratuvar çalışmaları, ödevler ve dönem projelerinin kaynak kodlarını içermektedir.
+This repository contains the source code for lab work, homework assignments and term projects prepared for the **CENG 215** course.
 
 ---
 
-## 📁 Projeler ve İçerik
+## 📁 Projects & Contents
 
-### 📝 Homework (Ödevler)
-| Klasör / Proje | Açıklama | Teknoloji / Dil | Durum |
+### 📝 Homework
+| Folder / Project | Description | Technology / Language | Status |
 | :--- | :--- | :---: | :---: |
-| [hw1 (GradeCalculator)](./Homework/hw1/) | Ders notları ve ağırlık yüzdelerine göre ağırlıklı ortalama ve harf notu hesaplayan Windows Forms uygulaması. | C# / .NET 10.0 (WinForms) | Tamamlandı ✅ |
-| [hw2 (Basic C# Programs)](./Homework/hw2/) | Temel C# konsol uygulamaları: Yaş hesaplayıcı (`age_calculator.cs`), sayı işlemleri (`number_operations.cs`) ve dikdörtgen hesaplayıcı (`rectangle_calculator.cs`). | C# / .NET | Tamamlandı ✅ |
+| [hw1 (GradeCalculator)](./Homework/hw1/) | A Windows Forms application that calculates the weighted average and letter grade based on course grades and their weight percentages. | C# / .NET 10.0 (WinForms) | Completed ✅ |
+| [hw2 (Basic C# Programs)](./Homework/hw2/) | Basic C# console applications: age calculator (`age_calculator.cs`), number operations (`number_operations.cs`) and rectangle calculator (`rectangle_calculator.cs`). | C# / .NET | Completed ✅ |
 
-### 🔬 Lab (Laboratuvar Çalışmaları)
-| Klasör / Proje | Açıklama | Teknoloji / Dil | Durum |
+### 🔬 Lab
+| Folder / Project | Description | Technology / Language | Status |
 | :--- | :--- | :---: | :---: |
-| [21.10.2026 (Lab Week 1)](./Lab/21.10.2026/) | 5 konsol uygulaması: Daire alanı (Q1), not ortalaması (Q2), sıcaklık dönüştürücü (Q3), zaman dönüştürücü (Q4), değer takası (Q5). | C# / .NET 10.0 (Console) | Tamamlandı ✅ |
+| [21.10.2026 (Lab Week 1)](./Lab/21.10.2026/) | 5 console applications: circle area (Q1), grade average (Q2), temperature converter (Q3), time converter (Q4), swap values (Q5). | C# / .NET 10.0 (Console) | Completed ✅ |
 
 ---
 
-## 📂 Dizin Yapısı
+## 📂 Directory Structure
 
 ```text
 CENG_215_Codes/
 │
-├── Homework/                        # Ödev projeleri
-│   ├── hw1/                         # Ödev 1: GradeCalculator (WinForms)
-│   │   ├── GradeCalculator/         # WinForms Kaynak Kodları (Form1.cs, Program.cs, vb.)
-│   │   ├── GradeCalculator.slnx     # Solution Dosyası
-│   │   └── README.md                # Projeye özel dokümantasyon
-│   └── hw2/                         # Ödev 2: Temel C# Konsol Uygulamaları
-│       ├── age_calculator.cs        # Yaş hesaplama
-│       ├── number_operations.cs     # Sayısal işlemler
-│       ├── rectangle_calculator.cs  # Dikdörtgen alan ve çevre hesabı
-│       └── README.md                # Ödev 2 dokümantasyonu
+├── Homework/                        # Homework projects
+│   ├── hw1/                         # Homework 1: GradeCalculator (WinForms)
+│   │   ├── GradeCalculator/         # WinForms source code (Form1.cs, Program.cs, etc.)
+│   │   ├── GradeCalculator.slnx     # Solution file
+│   │   └── README.md                # Project documentation
+│   └── hw2/                         # Homework 2: Basic C# console applications
+│       ├── age_calculator.cs        # Age calculation
+│       ├── number_operations.cs     # Arithmetic operations
+│       ├── rectangle_calculator.cs  # Rectangle area and perimeter
+│       └── README.md                # Homework 2 documentation
 │
-├── Lab/                             # Laboratuvar çalışmaları
+├── Lab/                             # Lab work
 │   ├── .gitkeep
-│   └── 21.10.2026/                  # Lab Week 1: 5 konsol projesi (Q1-Q5)
-│       ├── Q1_CircleArea/           # Daire alanı ve çevresi
-│       ├── Q2_GradeCalculator/      # Vize/final ortalaması ve geçti/kaldı
+│   └── 21.10.2026/                  # Lab Week 1: 5 console projects (Q1-Q5)
+│       ├── Q1_CircleArea/           # Circle area and circumference
+│       ├── Q2_GradeCalculator/      # Midterm/final average and passed/failed
 │       ├── Q3_TemperatureConverter/ # Celsius -> Fahrenheit
-│       ├── Q4_TimeConverter/        # Saniye -> saat/dakika/saniye
-│       ├── Q5_SwapValues/           # Üçüncü değişkenle takas
-│       ├── Lab_21_10_2026.slnx      # Solution Dosyası
-│       └── README.md                # Lab dokümantasyonu
+│       ├── Q4_TimeConverter/        # Seconds -> hours/minutes/seconds
+│       ├── Q5_SwapValues/           # Swap using a third variable
+│       ├── Lab_21_10_2026.slnx      # Solution file
+│       └── README.md                # Lab documentation
 │
-├── .gitignore                       # Derleme ve geçici dosyaları hariç tutma
-└── README.md                        # Ana repo tanıtım ve içerik belgesi
+├── .gitignore                       # Excludes build output and temporary files
+└── README.md                        # Main repository overview
 ```
 
 ---
 
-## 🚀 Projeleri Çalıştırma
+## 🚀 Running the Projects
 
-Her projenin kendi dizininde ayrıntılı çalışma ve derleme adımlarını içeren bir `README.md` dosyası bulunmaktadır.
+Each project has its own `README.md` with detailed build and run instructions.
 
-Örneğin, `GradeCalculator` projesini çalıştırmak için:
+For example, to run the `GradeCalculator` project:
 ```bash
 git clone https://github.com/yigitardakidiman/CENG215_codes.git
 cd CENG215_codes/Homework/hw1/GradeCalculator
@@ -65,8 +65,8 @@ dotnet run
 
 ---
 
-## 👤 Geliştirici
+## 👤 Developer
 
-- **Geliştirici:** Yiğit Arda Kıdıman
+- **Developer:** Yiğit Arda Kıdıman
 - **GitHub:** [@yigitardakidiman](https://github.com/yigitardakidiman)
 - **Repo:** [CENG215_codes](https://github.com/yigitardakidiman/CENG215_codes)

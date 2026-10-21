@@ -1,33 +1,33 @@
-# Grade Calculator (Ders Notu Hesaplama) 📊
+# Grade Calculator 📊
 
-Bu proje, **CENG 215** dersi kapsamında geliştirilmiş, öğrencilerin dönem içi ve dönem sonu değerlendirme notları ile bu notların ağırlık yüzdelerini girerek ağırlıklı ders ortalamasını ve harf notunu hesaplayan modern bir **Windows Forms (.NET 10.0)** masaüstü uygulamasıdır.
-
----
-
-## 🚀 Özellikler
-
-- **Esnek Not & Yüzde Girişi:**
-  - Ödev (Homework) notu ve ağırlığı (%)
-  - Laboratuvar (Lab) notu ve ağırlığı (%)
-  - Vize (Midterm) notu ve ağırlığı (%)
-  - Final notu ve ağırlığı (%)
-- **Giriş Doğrulama & Boş Değer Yönetimi:**
-  - Boş bırakılan not veya ağırlık alanları otomatik olarak `0` olarak kabul edilir.
-  - Girilen ağırlıkların toplamının **%100** olup olmadığı kontrol edilir; toplam 100 değilse kullanıcı uyarı mesajı ile bilgilendirilir.
-- **Ağırlıklı Ortalama Hesabı:**
-  - Notlar belirlenen ağırlık katsayılarına göre çarpılarak iki ondalık basamak (`0.00`) hassasiyetle hesaplanır.
-- **Harf Notu Belirleme:**
-  - Hesaplanan ortalamaya göre standart üniversite harf notu baremi uygulanır.
-- **Formu Sıfırlama (Temizle):**
-  - Tek tıklamayla tüm girdi alanları ve sonuç göstergeleri başlangıç durumuna döndürülür.
-- **Modern Kullanıcı Arayüzü:**
-  - Kart ve panel tabanlı, modern renk paletine sahip şık tasarım.
+This project, developed for the **CENG 215** course, is a modern **Windows Forms (.NET 10.0)** desktop application that calculates a student's weighted course average and letter grade from their in-term and end-of-term assessment grades and the weight percentages of those grades.
 
 ---
 
-## 📐 Harf Notu Baremi
+## 🚀 Features
 
-| Ağırlıklı Ortalama | Harf Notu |
+- **Flexible Grade & Weight Input:**
+  - Homework grade and weight (%)
+  - Lab grade and weight (%)
+  - Midterm grade and weight (%)
+  - Final grade and weight (%)
+- **Input Validation & Empty Value Handling:**
+  - Grade or weight fields left empty are automatically treated as `0`.
+  - The total of the entered weights is checked against **100%**; if the total is not 100, the user is notified with a warning message.
+- **Weighted Average Calculation:**
+  - Grades are multiplied by their weight coefficients and calculated with two decimal places (`0.00`) of precision.
+- **Letter Grade Assignment:**
+  - A standard university letter grade scale is applied to the calculated average.
+- **Form Reset (Clear):**
+  - All input fields and result displays are reset to their initial state with a single click.
+- **Modern User Interface:**
+  - A clean card- and panel-based design with a modern color palette.
+
+---
+
+## 📐 Letter Grade Scale
+
+| Weighted Average | Letter Grade |
 | :---: | :---: |
 | 90 – 100 | **AA** |
 | 80 – 89.99 | **BA** |
@@ -41,30 +41,29 @@ Bu proje, **CENG 215** dersi kapsamında geliştirilmiş, öğrencilerin dönem 
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
-- **Programlama Dili:** C#
+- **Programming Language:** C#
 - **Platform / Framework:** .NET 10.0 (Windows Desktop SDK)
-- **Arayüz:** Windows Forms (WinForms)
-- **Geliştirme Ortamı:** Visual Studio / Visual Studio Code
+- **UI:** Windows Forms (WinForms)
+- **Development Environment:** Visual Studio / Visual Studio Code
 
 ---
 
-## 💻 Kurulum ve Çalıştırma
+## 💻 Setup & Running
 
-### Gereksinimler
-- [.NET 10.0 SDK](https://dotnet.microsoft.com/download) (veya ilgili .NET sürümü)
-- Windows İşletim Sistemi (Windows Forms desteği için)
+### Requirements
+- [.NET 10.0 SDK](https://dotnet.microsoft.com/download) (or the corresponding .NET version)
+- Windows operating system (required for Windows Forms)
 
-### Yöntem 1: Visual Studio ile Çalıştırma
-1. `GradeCalculator.slnx` çözüm dosyasını Visual Studio ile açın.
-2. Üst menüden **Start / Başlat** (F5) butonuna basarak projeyi derleyip çalıştırın.
+### Option 1: Run with Visual Studio
+1. Open the `GradeCalculator.slnx` solution file in Visual Studio.
+2. Press **Start** (F5) in the top menu to build and run the project.
 
-### Yöntem 2: .NET CLI ile Çalıştırma
-Terminal veya PowerShell üzerinden depo ana dizinindeyken aşağıdaki komutu çalıştırabilirsiniz:
+### Option 2: Run with the .NET CLI
+From the repository root, run the following commands in a terminal or PowerShell:
 
 ```bash
 cd Homework/hw1/GradeCalculator
 dotnet run
 ```
-
